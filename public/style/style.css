@@ -2,28 +2,29 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: montserrat;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .navegacao {
     display: flex;
     background: #FFFFFF;
-    width: 80%;
     justify-content: space-evenly;
     align-items: center;
+    
 }
 
 .texto-barra {
     display: flex;
 }
 
-.text-barra, h1 {
+.text-barra h1 {
     font-size: 38px;
     font-weight: 400px;
 }
 
-.text-barra, h2 {
+.text-barra h2 {
     font-size: 14px;
+
 }
 
 a {
@@ -35,6 +36,7 @@ ul {
     list-style-type: none;
     display: flex;
     margin-left: 74px;
+    background: #FFFFFF;
 
 }
 
@@ -84,16 +86,306 @@ ul {
     color:#fff;
 }
 
-nav li {
-    float: left;
-    list-style: none;
+.nav li {
     margin-left: 80px;
+    font-size: 24px;
 }
 
 li {
-    width:150px
+    width:190px
 }
 
-nav {
-    text-align: right;
+.pagina-toda{
+    background-color: #E5E5E5;
 }
+
+/* Card */
+
+.texto-card{
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 100px;
+    padding-top: 100px;
+    padding-left: 410px;
+    padding-right: 410px;
+}
+
+.card-total{
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-evenly;
+}
+
+.card {
+    background-color: #fff;
+    padding: 15px;
+    width: 500px;
+    height: 320px;
+    margin:  10px;
+    box-shadow: 0px 9px 15px rgba(0, 0, 0, 0.15);
+    border-radius: 30px;
+}
+
+.icone-texto {
+    display: flex;
+    font-size: 24px;
+    align-items: center;
+    padding-top: 29px;
+    padding-left: 17px;
+    margin-bottom: 20px;
+    
+}
+
+.icone-texto h3 {
+    margin-left: 21px;
+
+}
+
+.card p{
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 20px;
+}
+
+#texto-ajuda{
+    margin-top: 44px;
+    color: #6D5039;
+    font-weight: 700;
+}
+
+#texto-doacoes{
+    margin-top: 28px;
+    color: #EE6093;
+    font-weight: 700;
+}
+
+#texto-voluntario{
+    margin-top: 50px;
+    color: #B0D551;
+    font-weight: 700;
+
+}
+
+/* Quem é o Gav*/
+
+.quem-e {
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-evenly;
+    padding-right: 264px;
+    padding-left: 200px;
+}
+
+#titulo-quem-e{
+    color: #EE6093;
+}
+
+.texto-quem-e p {
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+#subtitulo-quem-e {
+    font-size: 32px;
+    margin-top: 26px;
+}
+
+.botao-conheca {
+    background: #EE6093;
+    box-shadow: 0px 7px 15px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+    color:#fff;
+    padding: 9px 45px;
+    width: 225px;
+}
+
+.botao-conheca a {
+    color:#fff;
+}
+
+.img-quem-e{
+    margin-left: 131px;
+    width: 606px;
+    height: 454px;
+   
+}
+
+#voluntarios-lavando {
+    border-radius: 20px;
+    margin-top: -751px;
+    position: absolute;
+    right: 5px;
+    height: 450px;
+    margin-right: 20px;
+}
+
+#bolas-rosa {
+    margin-top: 20px;
+    margin-right: -270px;
+    position: relative;
+}
+
+/* Campanhas */
+.campanha {
+    margin-top: 100px;
+}
+.texto-campanha-titulo p{
+    color: #B0D551;
+    font-size: 30px;
+}
+
+.texto-campanha-subtitulo{
+    font-size: 32px;
+    margin-top: 26px;
+}
+
+.texto-campanha-titulo{
+    padding-left: 200px;
+}
+
+.bloco-img-texto{
+    display: flex;
+}
+
+.texto-campanha p{
+    font-size: 30px;
+    margin-top: 20px;
+    padding-right: 135px;
+    padding-left: 355px;
+}
+
+#voluntario-segurando {
+    border-radius: 20px;
+    margin-top: -751px;
+    position: absolute;
+    height: 450px;
+    left: 193px;
+    margin-right: 20px;
+}
+
+#voluntario-cesta {
+    border-radius: 20px;
+    margin-top: -751px;
+    position: relative;
+    height: 386px;
+    left: 683px;
+    margin-right: 20px;
+}
+
+.botao-participe{
+    background: #EE6093;
+    box-shadow: 0px 7px 15px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+    padding: 9px 45px;
+    height: 50px;
+    font-size: 30px;
+    margin-top: 450px;
+    margin-right: 250px;
+    align-items: flex-end;
+    
+}
+
+.botao-participe a{
+    color:#fff;
+}
+
+/* Como doar */
+
+.bloco-como-doar{
+    background: #EE6093;
+    border-radius: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 100px;
+    height: 640px;
+    margin-bottom: 100px;
+}
+
+
+.titulo-como-doar{
+    font-size: 50px;
+    text-align: center;
+    padding-top: 100px;
+    color: #fff;
+}
+
+.subtitulo-como-doar{
+    font-size: 25px;
+    text-align: center;
+    margin-top: 50px;
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+.bloco-card{
+    display: flex;
+    justify-content: center;
+
+}
+
+.card-whats{
+    background: #FFFFFF;
+    box-shadow: 0px 9px 15px rgba(0, 0, 0, 0.15);
+    border-radius: 30px;
+    width: 290px;
+    height: 240px;
+    margin-right: 70px;
+}
+
+.card-pix{
+    display: flex;
+    flex-flow: column nowrap;
+    background: #FFFFFF;
+    box-shadow: 0px 9px 15px rgba(0, 0, 0, 0.15);
+    border-radius: 30px;
+    width: 504px;
+    height: 240px;
+    margin-right: 70px;
+}
+
+.logo-pix-qrcode{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.card-paypal{
+    background: #FFFFFF;
+    box-shadow: 0px 9px 15px rgba(0, 0, 0, 0.15);
+    border-radius: 30px;
+    width: 270px;
+    height: 240px;
+    
+}
+
+.card-paypal img{
+    padding-top: 36px;
+}
+
+#texto-pix{
+    font-size: 20px;
+    font-weight: 400;
+    padding-left: 45px;
+}
+
+#img-whats{
+    padding-top: 5px;
+    padding-left: 40px;
+}
+
+#logo-pix{
+    padding-right: 58px;
+}
+
+.card-whats p {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 43px;
+}
+
+
+
+
